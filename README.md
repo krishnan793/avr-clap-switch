@@ -1,1 +1,2 @@
 # avr-clap-switch
+This program is for a clap switch. It will detect the clapping pattern (A short 2 clap or a short 3 clapp etc.) and according to that particular patter relay will be activated. If you clap once and didn't do anything for 1 second it will discard the trail. Also a 2 clap pattern won't be detected as a two seperate 1 clap pattern. This is writtem for AVR Atmega 8 (may also work on other AVR series of uC).
